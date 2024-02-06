@@ -21,4 +21,4 @@ function somarValores(obj) {
 }
 
 const obj = {n1: 5, n2: 10}
-somarValores() // linha com erro proposital: parâmetro obj não foi
+somarValores() // linha com erro proposital: parâmetro obj não foi informado corretamente
