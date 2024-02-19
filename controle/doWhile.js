@@ -3,9 +3,9 @@ function inteiroAleatorioEntre(max, min) {
     return Math.round(valor)
 }
 
-let opcao = 0 // é necessário declarar a variável 'opcao' antes do laço
-
-while (opcao != -1) { // se a condição 'opção != 1' for falsa, o laço não será executado
+// não é necessário definir a variável 'opcao' antes do laço
+do {
+    // o laço é executado pelo menos uma vez
      opcao = inteiroAleatorioEntre(-1, 10)
      console.log(`O valor sorteado foi ${opcao}`)
-}
+} while (opcao != 1)
