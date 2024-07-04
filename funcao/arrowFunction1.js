@@ -10,4 +10,3 @@ dobro = (num) => {
 
 // arrow retorno implícito (apenas 1 sentença)
 dobro = num => num * 2
-
