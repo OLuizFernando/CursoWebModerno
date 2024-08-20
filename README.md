@@ -1,2 +1,2 @@
 # Modern Web Course
- Exercises from Web Modern Courses from Cod3r Cursos on Udemy
+ Exercises from Web Modern Course from Cod3r Cursos on Udemy
