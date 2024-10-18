@@ -1,16 +1,40 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Anatomia CSS</title>
     <style>
-        /* ... */
+      .selector {
+        color: #f00;
+        font-size: 30px;
+        text-align: center;
+        border: solid 5px #faa; /* shorthand property */
+        font-family: Helvetica, monospace; /* alternativa */
+        width: calc(100% - 100px); /* função calc() */
+        background-color: rgb(255, 235, 235); /* função rgb() */
+      }
+
+      .selector:hover {
+        /* pseudo-classe */
+        background-color: rgb(255, 210, 210);
+      }
+
+      .selector::first-letter {
+        /* pseudo-elemento */
+        font-size: 60px;
+        font-weight: bold;
+
+        /*
+        PADRÕES DE NOMENCLATURA:
+        dash-case, camelCase ou snake_case
+            ^
+            mais usado
+        */
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="selector">Conteúdo</div>
-</body>
-
+  </body>
 </html>
